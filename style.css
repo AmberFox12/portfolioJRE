@@ -1618,20 +1618,20 @@ a.project-tag:hover { border-color: var(--ink); color: var(--ink); }
   display: block;
 }
 
-/* Variante "bare" : pas de cadre 4:3, juste l'image avec un contour discret */
+/* Variante "bare" : pas de cadre 4:3, juste le logo + vidéo centrés */
 .project-thumb--bare {
   background: transparent;
   aspect-ratio: auto;
   border: 1px solid var(--line);
   border-radius: var(--radius-sm);
-  padding: 0.6rem 0.8rem;
-  display: grid;
-  place-items: center;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
   cursor: default;
-  align-self: start;
-  /* aligner le haut du logo avec le haut de .project-desc
-     (≈ tags 28px + title 1.8rem*1.1 + 0.8rem margin) */
-  margin-top: 5.4rem;
+  align-self: center;
+  overflow: hidden;
 }
 .project-thumb--bare:hover { transform: none; }
 .project-thumb--bare .project-thumb-logo {
@@ -1644,7 +1644,12 @@ a.project-tag:hover { border-color: var(--ink); color: var(--ink); }
 .project-thumb--bare .project-thumb-logo img {
   width: 100%;
   max-width: 100%;
-  max-height: 90px;
+  max-height: 80px;
+  display: block;
+}
+.project-thumb--bare .project-demo-video {
+  width: 100%;
+  display: block;
 }
 
 /* ============================================ Footer */
