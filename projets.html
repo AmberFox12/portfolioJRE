@@ -38,163 +38,60 @@
       Projets <span style="color: var(--sage-deep);">en entreprise</span>
     </h1>
     <p class="skills-intro">
-      Six réalisations durant ma première et seconde année de BTS SIO — dont quatre menées chez <strong style="color: var(--ink);">MTB111</strong> et deux projets ADP de formation.
+      Trois réalisations entre formation et initiative personnelle — un projet personnel déployé en production, une réalisation ADP en BTS SIO SLAM et une mission menée chez <strong style="color: var(--ink);">MTB111</strong>.
     </p>
   </section>
 
   <!-- Filtres -->
   <div class="projects-filter reveal">
-    <button class="filter-btn active" data-filter="all">Tous <span class="filter-count">05</span></button>
+    <button class="filter-btn active" data-filter="all">Tous <span class="filter-count">03</span></button>
     <button class="filter-btn" data-filter="dev">Développement</button>
-    <button class="filter-btn" data-filter="securite">Sécurité</button>
     <button class="filter-btn" data-filter="en-cours">En cours</button>
   </div>
 
   <div class="projects-list">
 
-    <!-- 01 — YesWeHack -->
-    <article class="project-card reveal" id="projet-01" data-tags="securite,termine">
+    <!-- 01 — Thème et Variations -->
+    <article class="project-card reveal" id="projet-01" data-tags="dev,termine">
       <div class="project-num">01</div>
       <div class="project-body">
         <div class="project-tags">
           <span class="project-tag" data-status="termine">Terminé</span>
-          <a class="project-tag" href="competences.html#skill-burpsuite">Cybersécurité</a>
-          <span class="project-tag">Bug bounty</span>
+          <a class="project-tag" href="competences.html#skill-angular">Full-Stack</a>
+          <span class="project-tag">Projet personnel</span>
         </div>
-        <h3 class="project-title">YesWeHack — Chasse aux vulnérabilités</h3>
+        <h3 class="project-title">Thème et Variations — site d'une école de danse</h3>
         <p class="project-desc">
-          Mission de <strong>bug bounty</strong> sur la plateforme YesWeHack. Test de vulnérabilités connues sur des sites publics (type Deezer) : <strong>injections SQL</strong>, XSS, contrôles d'accès, exposition de données. Démarche d'analyse, rédaction de rapports, signalement responsable aux éditeurs.
+          Application web full-stack de gestion pour une <strong>école de danse</strong> : inscriptions aux cours, planning hebdomadaire et gestion des comptes familles. Projet personnel conçu, développé et déployé <strong>en production</strong> de A à Z, avec comptes parents multi-élèves, limite de <strong>15 places par cours</strong> et liste d'attente automatique, gestion des exceptions d'agenda (vacances, annulations, événements) et authentification sécurisée par <strong>JWT</strong>.
         </p>
         <div class="project-meta">
           <span class="project-meta-item">
             <span class="project-meta-label">Période</span>
-            <span class="project-meta-value">18/12/2024 → 21/03/2025</span>
+            <span class="project-meta-value">15/07/2026 → 20/08/2026</span>
           </span>
           <span class="project-meta-item">
-            <span class="project-meta-label">Entreprise</span>
-            <span class="project-meta-value">MTB111</span>
+            <span class="project-meta-label">Cadre</span>
+            <span class="project-meta-value">Projet personnel</span>
           </span>
           <span class="project-meta-item">
-            <span class="project-meta-label">Outils</span>
-            <span class="project-meta-value"><a href="competences.html#skill-burpsuite">Burp Suite</a> · YesWeHack</span>
-          </span>
-        </div>
-
-      </div>
-      <div class="project-thumb project-thumb--bare">
-        <div class="project-thumb-logo"><img src="images/YesWeHack_logo.png" alt="YesWeHack"></div>
-      </div>
-    </article>
-
-    <!-- 02 — CTF OWASP -->
-    <article class="project-card reveal" id="projet-02" data-tags="securite,termine">
-      <div class="project-num">02</div>
-      <div class="project-body">
-        <div class="project-tags">
-          <span class="project-tag" data-status="termine">Terminé</span>
-          <a class="project-tag" href="competences.html#skill-burpsuite">Cybersécurité</a>
-          <a class="project-tag" href="competences.html#skill-owasp">CTF</a>
-        </div>
-        <h3 class="project-title">CTF OWASP Top 10</h3>
-        <p class="project-desc">
-          Participation en entreprise à un <strong>Capture The Flag</strong> basé sur les vulnérabilités du top 10 OWASP. Exploitation pratique des failles les plus courantes : <strong>injections SQL</strong> et XSS, <strong>broken authentication</strong>, contrôle d'accès défaillant, <strong>sensitive data exposure</strong>.
-        </p>
-        <div class="project-meta">
-          <span class="project-meta-item">
-            <span class="project-meta-label">Période</span>
-            <span class="project-meta-value">23/03/2025 → 16/07/2025</span>
+            <span class="project-meta-label">Stack</span>
+            <span class="project-meta-value"><a href="competences.html#skill-angular">Angular 22</a> · <a href="competences.html#skill-api-rest">Spring Boot 4</a> · PostgreSQL · <a href="competences.html#skill-docker">Docker</a></span>
           </span>
           <span class="project-meta-item">
-            <span class="project-meta-label">Entreprise</span>
-            <span class="project-meta-value">MTB111</span>
-          </span>
-          <span class="project-meta-item">
-            <span class="project-meta-label">Outils</span>
-            <span class="project-meta-value"><a href="competences.html#skill-burpsuite">Burp Suite</a> · terminal · navigateur</span>
+            <span class="project-meta-label">Liens</span>
+            <span class="project-meta-value"><a href="https://themeetvariations.fr" target="_blank" rel="noopener">Voir le site</a> · <a href="https://github.com/AmberFox12/Th-me-Variation" target="_blank" rel="noopener">Code source</a></span>
           </span>
         </div>
 
       </div>
       <div class="project-thumb">
-        <img src="images/OWASP.gif" alt="Démonstration CTF OWASP">
+        <img src="images/theme-variations-accueil.png" alt="Page d'accueil du site Thème et Variations">
       </div>
     </article>
 
-    <!-- 03 — Jeu à problèmes -->
-    <article class="project-card reveal" id="projet-03" data-tags="dev,termine">
-      <div class="project-num">03</div>
-      <div class="project-body">
-        <div class="project-tags">
-          <span class="project-tag" data-status="termine">Terminé</span>
-          <a class="project-tag" href="competences.html#skill-java">Java · Spring Boot</a>
-          <span class="project-tag">ADP</span>
-        </div>
-        <h3 class="project-title">Jeu à problèmes</h3>
-        <p class="project-desc">
-          Application web de <strong>challenge de programmation</strong> développée en équipe de trois dans le cadre du BTS SIO SLAM. Les utilisateurs résolvent des problèmes de code dans un éditeur en ligne, contre la montre, sous l'œil d'un <strong>juge</strong> qui valide chaque solution. Un système de <strong>points et de classement</strong> dynamise la compétition entre les participants ; l'historique garde trace de toutes les parties. Quatre rôles distincts structurent l'application : Joueur, Créateur, Juge et Administrateur.
-        </p>
-        <div class="project-meta">
-          <span class="project-meta-item">
-            <span class="project-meta-label">Période</span>
-            <span class="project-meta-value">10/2024 → 06/2025</span>
-          </span>
-          <span class="project-meta-item">
-            <span class="project-meta-label">Cadre</span>
-            <span class="project-meta-value">ADP · BTS SIO SLAM · Équipe de 3</span>
-          </span>
-          <span class="project-meta-item">
-            <span class="project-meta-label">Stack</span>
-            <span class="project-meta-value"><a href="competences.html#skill-java">Java</a> · <a href="competences.html#skill-api-rest">Spring Boot</a> · Oracle DB</span>
-          </span>
-        </div>
-
-      </div>
-      <div class="project-thumb-stack">
-        <div class="project-thumb project-thumb--gallery" onclick="openPhotoModal('jeu-probleme')">
-          <div class="thumb-gallery">
-            <figure class="thumb-cell" data-label="Accueil">
-              <img src="images/Acceuil.png" alt="Accueil — Espace Joueur">
-            </figure>
-            <figure class="thumb-cell" data-label="Jeu">
-              <img src="images/Jeux.png" alt="Interface de jeu">
-            </figure>
-            <figure class="thumb-cell" data-label="Classement">
-              <img src="images/Classement.png" alt="Classement des joueurs">
-            </figure>
-            <figure class="thumb-cell" data-label="Historique">
-              <img src="images/Historique.png" alt="Historique">
-            </figure>
-          </div>
-          <div class="thumb-gallery-overlay">
-            <span>Voir les 4 captures</span>
-          </div>
-        </div>
-
-        <div class="project-thumb project-thumb--gallery" onclick="openPhotoModal('jeu-probleme-doc')">
-          <div class="thumb-gallery thumb-gallery--2">
-            <figure class="thumb-cell thumb-cell--contain" data-label="MCD">
-              <img src="images/MCD_JeuxPB.jpg" alt="MCD Jeu à problèmes">
-            </figure>
-            <figure class="thumb-cell thumb-cell--pdf" data-label="Dossier PDF">
-              <div class="pdf-tile">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                  <polyline points="14 2 14 8 20 8"/>
-                </svg>
-                <span class="pdf-tile-label">PDF · Dossier équipe</span>
-              </div>
-            </figure>
-          </div>
-          <div class="thumb-gallery-overlay">
-            <span>Voir MCD &amp; dossier</span>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <!-- 04 — RFTG -->
-    <article class="project-card reveal" id="projet-04" data-tags="dev,termine">
-      <div class="project-num">04</div>
+    <!-- 02 — RFTG -->
+    <article class="project-card reveal" id="projet-02" data-tags="dev,termine">
+      <div class="project-num">02</div>
       <div class="project-body">
         <div class="project-tags">
           <span class="project-tag" data-status="termine">Terminé</span>
@@ -252,9 +149,9 @@
       </div>
     </article>
 
-    <!-- 05 — StructurAll'X -->
-    <article class="project-card reveal" id="projet-05" data-tags="dev,en-cours">
-      <div class="project-num">05</div>
+    <!-- 03 — StructurAll'X -->
+    <article class="project-card reveal" id="projet-03" data-tags="dev,en-cours">
+      <div class="project-num">03</div>
       <div class="project-body">
         <div class="project-tags">
           <span class="project-tag" data-status="en-cours">En cours</span>
