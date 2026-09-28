@@ -46,7 +46,6 @@
   <div class="projects-filter reveal">
     <button class="filter-btn active" data-filter="all">Tous <span class="filter-count">03</span></button>
     <button class="filter-btn" data-filter="dev">Développement</button>
-    <button class="filter-btn" data-filter="en-cours">En cours</button>
   </div>
 
   <div class="projects-list">
@@ -84,8 +83,34 @@
         </div>
 
       </div>
-      <div class="project-thumb">
-        <img src="images/theme-variations-accueil.png" alt="Page d'accueil du site Thème et Variations">
+      <div class="project-thumb-stack">
+        <div class="project-thumb project-thumb--gallery" onclick="openPhotoModal('theme-variations-site')">
+          <div class="thumb-gallery thumb-gallery--2">
+            <figure class="thumb-cell thumb-cell--shot" data-label="Accueil">
+              <img src="images/theme-variations-accueil.png" alt="Page d'accueil du site Thème et Variations">
+            </figure>
+            <figure class="thumb-cell thumb-cell--shot" data-label="Archives">
+              <img src="images/theme-variations-archives-public.png" alt="Page archives du site Thème et Variations">
+            </figure>
+          </div>
+          <div class="thumb-gallery-overlay">
+            <span>Voir le site public</span>
+          </div>
+        </div>
+
+        <div class="project-thumb project-thumb--gallery" onclick="openPhotoModal('theme-variations-admin')">
+          <div class="thumb-gallery thumb-gallery--2">
+            <figure class="thumb-cell thumb-cell--shot" data-label="Planning">
+              <img src="images/theme-variations-planning-admin.png" alt="Planning des cours — espace admin">
+            </figure>
+            <figure class="thumb-cell thumb-cell--shot" data-label="Archives admin">
+              <img src="images/theme-variations-archives-admin.png" alt="Gestion des archives — espace admin">
+            </figure>
+          </div>
+          <div class="thumb-gallery-overlay">
+            <span>Voir l'espace admin</span>
+          </div>
+        </div>
       </div>
     </article>
 
@@ -150,11 +175,11 @@
     </article>
 
     <!-- 03 — StructurAll'X -->
-    <article class="project-card reveal" id="projet-03" data-tags="dev,en-cours">
+    <article class="project-card reveal" id="projet-03" data-tags="dev,termine">
       <div class="project-num">03</div>
       <div class="project-body">
         <div class="project-tags">
-          <span class="project-tag" data-status="en-cours">En cours</span>
+          <span class="project-tag" data-status="termine">Terminé</span>
           <a class="project-tag" href="competences.html#skill-angular">Angular</a>
           <span class="project-tag">Tests</span>
           <a class="project-tag" href="competences.html#skill-yaml">YAML</a>
@@ -214,7 +239,7 @@
   <div class="footer-inner">
     <div class="footer-mark">Jules Renard.</div>
     <div class="footer-meta">
-      <span>© 2026 · Portfolio BTS SIO</span>
+      <span>© 2026 · Portfolio SupInfo</span>
       <a href="#" onclick="scrollToTop(); return false;" class="footer-to-top">↑ Haut de page</a>
     </div>
   </div>

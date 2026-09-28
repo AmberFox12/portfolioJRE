@@ -78,6 +78,20 @@ window.scrollToTop = scrollToTop;
 
 // ===== Project photo modal =====
 const projectPhotos = {
+  'theme-variations-site': {
+    title: 'Thème et Variations — Site public',
+    photos: [
+      { src: 'images/theme-variations-accueil.png', title: 'Page d\'accueil', description: 'Page d\'accueil de l\'école de danse : présentation et cours proposés.' },
+      { src: 'images/theme-variations-archives-public.png', title: 'Nos grands spectacles', description: 'Page archives publique listant les spectacles passés et à venir de l\'association.' }
+    ]
+  },
+  'theme-variations-admin': {
+    title: 'Thème et Variations — Espace admin',
+    photos: [
+      { src: 'images/theme-variations-planning-admin.png', title: 'Planning des cours', description: 'Gestion du planning hebdomadaire : création et suivi des cours par type de danse.' },
+      { src: 'images/theme-variations-archives-admin.png', title: 'Gestion des archives', description: 'Interface d\'administration pour ajouter et modifier les spectacles archivés.' }
+    ]
+  },
   'jeu-probleme': {
     title: 'Jeu Problème — Captures',
     photos: [
